@@ -1,0 +1,179 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+/* 
+ .navbar-nav
+ {
+    color:black
+    font-family : sans-serif;
+    font-size
+    
+    /* text-align: center; */
+    /* padding-right : 40px; */
+    /* border-bottom: 1px solid blue; */
+ /* } */ */
+
+h1{
+
+
+    color: rgb(11, 148, 169);
+    text-decoration: wavy;
+}
+
+h2{
+ padding-top: 25px;
+ text-decoration: underline;
+ font-style: italic;
+}
+h5
+{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 100px;
+}
+
+
+
+
+.con
+
+{
+    padding-top: 50px;
+ 
+}
+.t1
+{
+
+    padding-left: 50px;
+}
+
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 60%;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(3, 1, 1);
+  }
+  
+
+  /* form css */
+/* 
+  .f1{
+
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    
+    background-color: antiquewhite;
+    } */
+    
+    
+    
+    
+    input{
+    text-align: center;
+    
+        
+    }
+    button{
+    
+    
+        
+        border: 1px solid black;
+        color: white;
+      
+       margin-bottom: 5px;
+        text-align: center;
+        text-decoration-style: none;
+        display: inline-block;
+        font-size: 6px;
+        width: 200px;
+    }
+    .s1{
+       text-align: center;
+       padding-top: 200px;
+       background-color: rgb(127, 186, 205);
+    
+    }
+    .b1
+    {
+    
+    
+        background-color: rgb(156, 202, 207);
+    }
+    .h1{
+    
+    padding-top: 40PX;
+        text-align: center;
+        color: rgba(33, 9, 214, 0.4);
+    }
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #8bdfc4;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        /* padding: 20px; */
+        width: 65%;
+        transition: all 0.5s;
+        cursor: pointer;
+        /* margin: 5px; */
+        align-items: center;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      #rcorners2 {
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px; 
+        width: 80%;
+        height: 200px;  
+        box-shadow: 5px 10px 5px 7px #888888;
+      }
+      h3{
+
+         font-style: italic;
+         color: crimson;
+      }
